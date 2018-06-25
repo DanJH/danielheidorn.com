@@ -1,5 +1,5 @@
 ::selection {
-    background: #eca1a6;
+    background: #aec6cf;
     color: #F3F9FF;
 }
 
@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url("/assets/img/bg.png"), #d8878c;
+    background: url("/assets/img/bg.png"), #aec6cf;
     font-family: "Lobster", cursive;
 }
 
@@ -43,12 +43,12 @@ div.row:not(:last-of-type) {
 }
 
 .card-link:hover {
-    background: #c2686e;
+    background: #4f8599;
     color: #F3F9FF;
 }
 
 .card-link:active {
-    box-shadow: 5px 5px #c2686e;
+    box-shadow: 5px 5px #4f8599;
     transform: translate(5px, 5px);
 }
 
