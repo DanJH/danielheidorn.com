@@ -23,6 +23,7 @@ body {
     display: flex;
 }
 
+
 div.row:not(:last-of-type) {
     margin-bottom: 2em;
 }
