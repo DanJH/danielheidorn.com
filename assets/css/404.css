@@ -26,6 +26,7 @@ h1 {
     color: white;
     font-size: 128pt;
     font-weight: 400;
+    margin: auto;
 }
 
 @keyframes whee {
