@@ -20,12 +20,12 @@ body {
 }
 
 .row {
-    display: flex;
+    display: inline-flex;
 }
 
 .mainImg{
     box-shadow: 10px 10px #282D4E;
-    display: box;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
     animation: grow 2s ease forwards;
@@ -38,7 +38,7 @@ div.row:not(:last-of-type) {
 
 .card {
     animation: grow .8s ease forwards;
-    background: #F3F9FF;
+    background: #8a8587;
     box-shadow: 10px 10px #282D4E;
     color: #282D4E;
     font-size: 2em;
