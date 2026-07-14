@@ -1,0 +1,63 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "{{ site.theme }}";
+
+.site-font {
+    font-family: monospace !important;
+}
+
+.post-buttons {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.home-title h1::after {
+  content: "";
+  width: 5px;
+  height: 20px;
+  background: #ec7fff;
+  display: inline-block;
+}
+
+.post-buttons .last {
+
+}
+.post-buttons .next {
+
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
