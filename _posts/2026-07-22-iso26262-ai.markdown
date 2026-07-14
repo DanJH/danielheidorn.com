@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "Compliance and ISO26262 in the Age of A.I."
+date:   2026-08-22 18:24:05 -0400
+categories: "blog"
+lastpost: "python damage"
+lastposthref: "./blog/2025/06/22/old-blog-post.html"
+---
+
+## *AI Causes the Layman (me) to Arrive*
+
+I had an idea for a tool that would help me complete one of the most ardious parts of my tasks in ISO26262 compliance; documenting my code reviews in an excel sheet with any findings and scheduling a meeting with the developer. Why do I use an Excel spreadsheet, some dated internal tool, or something like that? 
+
+I wrote a script in Python that could output a spreadsheet in with all the details I need but hated trying to create a UI in procedural libraries common for desktop. So, given orders from my boss to try out A.I., I decided to have it spit out a UI using Qt and PySide6 - it seemed to work quite well.  The only thing INext thing you know, I spoke with a co-worker here about 
+For those unfamiliar with the standard ISO26262: "Road vehicles — Functional safety", it does not give strict guidance on how to *write* safe software for automotive applications but rather outlines practices to follow including the  
+It's a take-turns process. I review someone else's code and then they review mine.
+
+
+
+
+
+## The Argument of Exponential Growth 
+
+If Deloitte or some other consulting firm visited you or your company recently, you'll likely have seen this graph showing coding chatbots performing at tests extremely well and heard, "human's cannot imagine exponential growth"
+
+
+## A
+
+### *Well you're seething, Daniel...*
+
+Well... maybe a little... I heard a story on Instagram that perfectly described it though 
+
+
+Management-type people often will ask software engineers to develop AI tools 
+AI is so devisive in nature - even down to software developers. You have the crowd finding enjoyment in building a product, and GenAI is perfect for them. The other crowd finds
+
+
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name) ()
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

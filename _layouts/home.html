@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="home">
+  <style>
+    .blinking-cursor::after {
+      content: '_';
+      animation: blink 1s steps(2, start) infinite;
+    }
+
+    @keyframes blink {
+      to { visibility: hidden; }
+    }
+  </style>
+  <div style="display: flex;" class="home-title">
+  <h1 class="blinking-cursor">/welcome</h1>
+  </div>
+  {{ content }}
+  <br/>
+  {%- if site.posts.size > 0 -%}
+    <h4 class="post-list-heading">{{ page.list_title | default: "Projects" }}</h4>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+
+      {%- if post.categories contains 'project' -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }} | <i>{%- if post.categories contains 'personal' -%}personal{%- else -%}school{%- endif -%}</i></span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endif -%}
+      {%- endfor -%}
+    </ul>
+
+
+  {%- endif -%}
+  {%- if site.posts.size > 0 -%}
+    <h3 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h3>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      {%- if post.categories contains 'blog' -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endif -%}
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>
