@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Digital Footprint in the Age of AI"
-date:   2025-07-25 18:24:05 -0400
+date:   2026-08-30 18:24:05 -0400
 categories: "blog"
-nextposthref: "./blog/2025/06/22/old-blog-post.html"
-nextpost: ""
 ---
 
 # Mundane Dystopia 
@@ -25,6 +23,8 @@ But on second glance, isn't it a little strange that these chatbots are being pr
 
 The incentive seems clear. Keep drawing back users time and time again with emotional interest. But at the same time, it's not as if you are talking into a void where the data disappears forever. That data is sitting on some server for a very long time. And what makes it even worse is that A.I. is an extremely proficent search engine. Not to mention the numerous health trackers we have connected to us at nearly all times with smart watches and other 
 
+
+TODO finish this mess
 
 When you're embarassed about something with eyes glaring at you, it feels like an eternity for others to avert their eyes. But in hindsight, it is extremely likely that the most embarassing moment in your life 
 If you were born before social media existed, likely lasted an eternity in your eyes but almost everyone forgot it within minutes, hours, or days. There were probably no records of it either - maybe a photograph at most.

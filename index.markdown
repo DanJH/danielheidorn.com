@@ -9,7 +9,7 @@ layout: home
 ---
 <br/>
 
-I'm Daniel Heidorn, an aspiring software engineer who loves anything that moves, zaps, or measures. Especially the combination of all three in automotive software development. 
+I'm Daniel Heidorn, a software engineer who loves anything that moves, zaps, or measures. Especially the combination of all three in automotive software development. 
 
 This website is home to various projects, blog posts, and my resume.
 
