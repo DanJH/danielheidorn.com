@@ -9,4 +9,14 @@ nextpost: "Arduino Buttonbox for Sim- Racing, Flying, and more!"
 nextposthref: "http://127.0.0.1:4000/project/personal/2026/06/22/arduino-buttonbox.html"
 ---
 
-# Sim R
+# Task
+
+For the capstone of EECS494: Game Design at the University of Michigan, we were tasked with creating a game for an audience and use real-world iterative development with play testers, project management, and even a Jira board. We were doing the real deal. 
+
+# Download
+
+*Please extract before running*
+
+[Download for Windows](/downloads/coconaut-win.zip)
+
+[Download for MacOS](/downloads/coconaut-mac.zip)

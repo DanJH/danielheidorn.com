@@ -23,7 +23,7 @@ email: daniel.j.heidorn@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Daniel Heidorn's portfolio and blog. A software engineer interested in cars, trains, and planes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://danielheidorn.com" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: "Daniel Heidorn"
 github_username:  DanJH
 font_family: monospace
