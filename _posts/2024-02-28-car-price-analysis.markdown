@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Webscrapping and Multivariate Car Price Analysis"
+title:  "Webscraping and Multivariate Car Price Analysis"
 date:   2024-02-28 12:00:00 -0400
 categories: project personal
-lastpost: "Game Design: Drift Star"
-lastposthref: "./project/school/2022/02/06/game-design-proj-1-zelda.html"
-nextpost: "Arduino Buttonbox for Sim- Racing, Flying, and more!"
-nextposthref: "http://127.0.0.1:4000/project/personal/2026/06/22/arduino-buttonbox.html"
+lastpost: "Game Design Capstone: Coconaut"
+lastposthref: "/project/school/2022/04/19/game-design-proj-3-exploration.html"
+# nextpost: "Arduino Buttonbox for Sim- Racing, Flying, and more!"
+# nextposthref: "./project/personal/2026/06/22/arduino-buttonbox.html"
 ---
 
 *Note: this was developed before the [meteoric rise of A.I. webscrapers](https://arstechnica.com/ai/2025/03/devs-say-ai-crawlers-dominate-traffic-forcing-blocks-on-entire-countries/). So now a majority of websites will block repeated requests. Thus, this project no longer works.*
@@ -27,11 +27,11 @@ I decided to run some simple analysis and see where other cars on the market lan
 
 ## Planning to Purchase 
 
-On the flipside, I could use the same webscrapper to browse the value of cars and run some nice multivariate analayses like seeing how much value declines by mileage, year, etc. for a specific make or model relative to another.
+On the flipside, I could use the same webscraper to browse the value of cars and run some nice multivariate analayses like seeing how much value declines by mileage, year, etc. for a specific make or model relative to another.
 
 
 
-## Future Plans [RIP to Webscrapping]
+## Future Plans [RIP to Webscraping]
 
 I initially had a long-term vision to having something similar to Autotempest.com but instead of showing active offers through multiple websites, it would instead give 
 

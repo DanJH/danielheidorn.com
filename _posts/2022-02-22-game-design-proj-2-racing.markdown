@@ -5,9 +5,13 @@ date:   2022-02-22 12:00:00 -0400
 categories: project school
 lastpost: "Game Design: Zelda Dungeon Recreation"
 lastposthref: "./project/school/2022/02/06/game-design-proj-1-zelda.html"
-nextpost: "Game Design Capstone: Coconut Exploration"
+nextpost: "Game Design Capstone: Coconaut"
 nextposthref: "./project/school/2022/04/19/game-design-proj-3-exploration.html"
 ---
+
+EECS494
+
+Game Design, University of Michigan
 
 # Task 
 

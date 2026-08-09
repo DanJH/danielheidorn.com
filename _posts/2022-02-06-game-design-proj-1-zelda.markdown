@@ -8,11 +8,15 @@ nextposthref: "./project/school/2022/02/22/game-design-proj-2-racing.html"
 
 ---
 
+EECS494
+
+Game Design, University of Michigan
+
 # Task 
 
-For EECS494: Game Design at the University of Michigan, we were tasked with recreating one of the most beloved moments in video game history - the first ever Zelda dungeon.
+My team - Andriy Massamilla and I - were tasked with recreating one of the most beloved moments in video game history - the first ever Zelda dungeon.
 
-My team - Andriy Massamilla and I - were given screenshots, video walkthroughs, and some basic sprites for the game. The rest was left to us. Everything from mapping the sprites to models with hitboxes, creating a movement and attack system, to even a final boss fight with hit effects.
+The only items given are screenshots, video walkthroughs, and some basic sprites for the game. The rest was left to us. Everything from mapping the sprites to models with hitboxes, creating a movement and attack system, to even a final boss fight with hit effects.
 
 Beyond the recreation of the dungeon, we were also tasked with creating a 'remix' of the dungeon, introducing our own elements to the game (as long as it is not a grappling hook like Fortnite, Apex Legends, or countless other games).
 
