@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduino Buttonbox for Sim- Racing, Flying, and more!"
-date:   2026-06-22 18:24:05 -0400
+date:   2026-10-22 18:24:05 -0400
 categories: project personal
 lastpost: "Game Design Capstone: Coconut Exploration / Platformer"
 lastposthref: "./project/school/2022/04/19/game-design-proj-3-exploration.html"
