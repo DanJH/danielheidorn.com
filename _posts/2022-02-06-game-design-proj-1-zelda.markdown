@@ -33,6 +33,7 @@ Crpyt of the NecroDancer was extremely fun and did not require too much work to 
 *Special thanks to Crpyto of the NecroDancer for the inspiration*
 
 ![Screenshot of Zelda Remix mode](/images/zelda_screenshot_remix.png)
+
 # Gameplay Notes
 
 *Press '1' to toggle infinite items*
@@ -44,6 +45,7 @@ Crpyt of the NecroDancer was extremely fun and did not require too much work to 
     - Every time the axis of movement changes, it realigns the player to the nearest block! (e.g. dungeon tiles or grass tiles)
     - Recreating this mechanic took a while to figure out until we realized we can introduce a state such that we track if their movement changed axis, then teleport the player to nearest full block 
 - Enemies are pretty much 'on rails' (LERP-ing and SLERP-ing between points like the player and their starting point) or simple agents (e.g. go left five blocks, hold, turn right, ...; if player_dist < 5 blocks -> turn_to_player, move, ...)
+
 ![Screenshot of Zelda](/images/zelda_screenshot_2.png)
 
 
@@ -54,12 +56,14 @@ Crpyt of the NecroDancer was extremely fun and did not require too much work to 
     - Added fun animations and sounds for each instance like the bomb!
 - Inventory is array and has way to add/discard
     - Keep it simple - one struct and three methods: add, remove, interact 
+
 ![Screenshot of Zelda](/images/zelda_screenshot_3.png)
 
 
 ## Enemies / Fighting System
 - There are numerous enemies including the Dragon!
 - Traps are quite challenging to get the movement right - I won't reveal my secrets as to not spoil others
+
 ![Screenshot of Zelda](/images/zelda_screenshot_4.png)
 
 ## Remix System
