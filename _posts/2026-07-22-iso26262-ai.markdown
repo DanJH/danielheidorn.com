@@ -1,37 +1,33 @@
 ---
 layout: post
-title:  "Compliance and ISO26262 in the Age of A.I."
+title:  "Functional Safety and ISO26262 in the Age of A.I."
 date:   2026-08-08 18:24:05 -0400
 categories: "blog"
 ---
 
 ## *AI Causes the Layman (me) to Arrive*
 
-I had an idea for a tool that would help me complete one of the most ardious parts of my tasks in ISO26262 compliance; documenting my code reviews in an excel sheet with any findings and scheduling a meeting with the developer. Why do I use an Excel spreadsheet, some dated internal tool, or something like that? 
+I had an idea for a tool that would help me complete one of the most ardious parts of my tasks in ISO26262[^1] compliance; documenting my code reviews in an excel sheet with any findings and scheduling a meeting with the developer. Why do I use an Excel spreadsheet, some dated internal tool, or something like that? 
 
-For those unfamiliar with the standard ISO26262: "Road vehicles — Functional safety", it does not give strict guidance on how to *write* safe software for automotive applications but rather outlines practices to follow including the  
-It's a take-turns process. I review someone else's code and then they review mine. We need to mark them up in Excel or another engineering tool to give a paper trail for legal libaility.
-
-I wrote a script in Python that could output a spreadsheet in with all the details I need but hated trying to create a UI in procedural libraries common for desktop. So, given orders from my boss to try out A.I., I decided to have it spit out a UI using Qt and PySide6 - it seemed to work quite well. The next thing you know, I spoke with a co-worker about it and they end up getting their manager on board too, and I'm standing in front of nine people presenting my idea for the case.
+I wrote a script in Python that could output a spreadsheet in with all the details I need but really dislike trying to create a UI in procedural libraries like PySide6. And - much like every other office worker - my boss keeps nagging me to try out AI, so I decided to have it spit out a UI using Qt and PySide6. The next thing you know, I spoke with a co-worker about it and they end up getting their manager on board too, and I'm standing in front of nine people presenting my idea for the case.
 
 Right out the gate, our compliance officer prefaced his response "I apprecaite the effort but..." and I knew I was going to get lambasted.
 
 ## The ISO26262 Promise
 
-The reason my application was rejected was becasuse there is a ISO26262 dictates all software must start as requirements, then tests or acceptance criteria are described against those requirements. Only then can you begin on the implemtation work. 
+The reason my application was rejected was becasuse there is a ISO26262 dictates all software must start as requirements, then tests or acceptance criteria are created against those requirements. Only then can you begin on the implementation work. 
+I had no clue this applied to tools that don't touch the code like your ticketing system, calibration integration tool, or requirements management system. 
 
-I had no clue this did not apply to anything 
+Taking a step back, this makes a lot of sense because a deterministic system is a safe system. Every time you have a finding you must be almost certain her findings were correctly saved. I had the thought in the back of my mind, "how do we write compliant code?" 
 
 
+## The Way Forward with AI
 
-
-## The Argument of Exponential Growth 
-
-If Deloitte or some other consulting firm visited you or your company recently, you'll likely have seen this graph showing coding chatbots performing at tests extremely well and heard, "human's cannot imagine exponential growth"
 
 
 ### *Well you're seething, Daniel...*
 
-Well... maybe a little... I heard a story on 
+Well... maybe a little...
 
 
+[^1]: It's quite extensive. My copy from 2018 is 10 sections and 446 pages. 

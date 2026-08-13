@@ -25,6 +25,11 @@ If you've ever read *When McKinsey Comes to Town* by Walt Bogdanich and Michael 
 
 I decided to run some simple analysis and see where other cars on the market landed. 
 
+### Webscraper for Data
+
+After looking through some sites, the first site I decided upon was `cars.com` because they could display up to 100 results a page and the page iterator was in the URL (this made it have fewer requests (less likley to be denied) and easy for a script to iteratre)
+The Python library beautifulsoup is great for webscraping 
+
 ## Planning to Purchase 
 
 On the flipside, I could use the same webscraper to browse the value of cars and run some nice multivariate analayses like seeing how much value declines by mileage, year, etc. for a specific make or model relative to another.

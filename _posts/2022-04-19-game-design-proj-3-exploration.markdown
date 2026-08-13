@@ -18,6 +18,13 @@ Game Design, University of Michigan
 
 For the capstone of EECS494: Game Design at the University of Michigan, we were tasked with creating a game for an audience and use real-world iterative development with play testers, project management, and even a Jira board. We were doing the real deal. 
 
+We had a blank sheet with one rule - everything has to be made by us (except for music but we have support of a local videogame music club)
+
+# Design
+- Decided to design it as a platformer with elements from some of our favorite games
+
+# Gameplay 
+
 # Download
 
 *Please extract before running*
