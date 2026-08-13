@@ -12,7 +12,9 @@ EECS494
 
 Game Design, University of Michigan
 
-# Task 
+<h2> Task </h2>
+
+![Screenshot of Zelda](/images/zelda_screenshot_1.png)
 
 My team - Andriy Massamilla and I - were tasked with recreating one of the most beloved moments in video game history - the first ever Zelda dungeon.
 
@@ -20,9 +22,9 @@ The only items given are screenshots, video walkthroughs, and some basic sprites
 
 Beyond the recreation of the dungeon, we were also tasked with creating a 'remix' of the dungeon, introducing our own elements to the game (as long as it is not a grappling hook like Fortnite, Apex Legends, or countless other games).
 
-![Screenshot of Zelda](/images/zelda_screenshot_1.png)
+<h2> 'Remix'</h2>
 
-# 'Remix'
+![Screenshot of Zelda Remix mode](/images/zelda_screenshot_remix.png)
 
 *Press '4' to enter remix mode!*
 
@@ -32,24 +34,22 @@ Crpyt of the NecroDancer was extremely fun and did not require too much work to 
 
 *Special thanks to Crpyto of the NecroDancer for the inspiration*
 
-![Screenshot of Zelda Remix mode](/images/zelda_screenshot_remix.png)
+<h2> Gameplay </h2>
 
-# Gameplay Notes
+![Screenshot of Zelda](/images/zelda_screenshot_2.png)
 
 *Press '1' to toggle infinite items*
 
 *Press '2' to toggle god mode*
 
-## Movement
+<h3> Movement </h3>
 - Have you ever watched Zelda and realized when you move in one axis (i.e. vertical or horizontal), then try to move in the other axis, it will align you to the nearest block in an axis?
     - Every time the axis of movement changes, it realigns the player to the nearest block! (e.g. dungeon tiles or grass tiles)
     - Recreating this mechanic took a while to figure out until we realized we can introduce a state such that we track if their movement changed axis, then teleport the player to nearest full block 
 - Enemies are pretty much 'on rails' (LERP-ing and SLERP-ing between points like the player and their starting point) or simple agents (e.g. go left five blocks, hold, turn right, ...; if player_dist < 5 blocks -> turn_to_player, move, ...)
 
-![Screenshot of Zelda](/images/zelda_screenshot_2.png)
 
-
-## Health / Inventory System
+<h3> Health / Inventory System</h3>
 - Simple raycast around player for things that damage it 
 - Health implementation is simply value where HP is a running value and a few lives. Plus some animations and stuff like `hp <= 0 -> death()` 
 - Each item has a template of an item class then gets action called when keypress happens
@@ -57,22 +57,22 @@ Crpyt of the NecroDancer was extremely fun and did not require too much work to 
 - Inventory is array and has way to add/discard
     - Keep it simple - one struct and three methods: add, remove, interact 
 
-![Screenshot of Zelda](/images/zelda_screenshot_3.png)
 
-
-## Enemies / Fighting System
+<h3> Enemies / Fighting System</h3>
 - There are numerous enemies including the Dragon!
 - Traps are quite challenging to get the movement right - I won't reveal my secrets as to not spoil others
 
 ![Screenshot of Zelda](/images/zelda_screenshot_4.png)
 
-## Remix System
+<h3> Remix System </h3>
 - Move to the beat of the song! Try as hard as you can, otherwise you'll be dazed and miss a beat
     - *There are some slight bugs. But given only a few days and learning Unity only a few weeks prior, I am proud of it.*
 - Using Royalty Free Music 
 
 
-# Download
+<h2>Download</h2>
+
+![Screenshot of Zelda](/images/zelda_screenshot_3.png)
 
 *Please extract before running*
 
